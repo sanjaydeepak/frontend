@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce</title>
+    <link rel="icon" href="hat-svgrepo-com.svg" type="icon/-x">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Silkscreen:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <nav class="navbar">
+        <h1>Nostra</h1>
+        <div class="navbar-links">
+            <p class="navbar-link">
+                <a href="index.html">Home</a>
+            </p>
+            <p class="navabar-link">
+                <a href="collection.html">Collections</a>
+            </p>
+            <p class="navbar-link">
+                <a href="">About</a>
+            </p>
+        </div>
+
+        <div class="navbar-menu-toggle" onclick="shownavbar()">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
+    <!--Side Nav bar-->
+    <div class="side-navbar">
+        <p style="text-align:right" onclick="closenavbar()"><i class="fa -solid fa-xmark"></i></p>
+        <div class="side-navbar-links">
+            <p class="side-navbar-link">
+                <a href="index.html">Home</a>
+            </p>
+            <p class="side-navbar-link">
+                <a href="collection.html">Collections</a>
+            </p>
+            <p class="side-navbar-link">
+                <a href="">Contact</a>
+            </p>
+        </div>
+    </div>
+    <!--products-->
+    <div class="product-section">
+        <form class="product-search">
+            <input type="text" id="search" placeholder="Search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </form>
+
+        <div class="products" id="products">
+            <div class="product-box">
+                <img src="https://t4.ftcdn.net/jpg/02/90/65/93/240_F_290659348_rsfvYMkB5Cy4U0FTqjFW5KJDLTz65B6m.jpg "width="200" height="200">
+                <p>Elegant</p>
+            </div>
+            <div class="product-box">
+                <img src="https://t3.ftcdn.net/jpg/06/04/98/72/240_F_604987216_sh8YSpmGqaEk4Ux2BydHOaMmfbUC2FZ9.jpg"width="200" height="200">
+                <p>Aesthetics</p>
+            </div>
+            <div class="product-box">
+                <img src="https://t4.ftcdn.net/jpg/04/18/12/91/240_F_418129159_IS9JNdN2BaG9K6GmsiD97uPsuSOJKkQT.jpg"width="200" height="200">
+                <p>Formal</p>
+            </div>
+            <div class="product-box">
+                <img src="https://t3.ftcdn.net/jpg/02/88/55/94/240_F_288559400_SZAOzWeRFbqaxwNu6HX80REhmdklA4gS.jpg"width="200" height="200">
+                <p>Vintage</p>
+            </div>
+            <div class="product-box">
+                <img src="https://t3.ftcdn.net/jpg/02/29/74/20/240_F_229742070_UOUlBZtOdQBzYDaPhDyH9hbpftbK9inT.jpg" width="200"
+                    height="200">
+                <p>Jeans</p>
+            </div>
+            <div class="product-box">
+                <img src="https://t4.ftcdn.net/jpg/02/62/82/23/240_F_262822378_ARjv7L8vwVCmrxPUTgaDaB6BZhxJgqdh.jpg" width="200"
+                    height="200">
+                <p>Vintage</p>
+            </div>
+
+            
+
+        </div>
+    </div>
+
+    <!--Footer-->
+    <div class="footer">
+        <div class="footer-container">
+            <h2 class="headingtext">Nostra</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis obca</p>
+            <div class="footer-icon-container" style="color:#ffffff;">
+                <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram " style="color:#ffffff;"></i></a>
+                <i class="fa-brands fa-twitter" style="color:#ffffff;"></i>
+                <i class="fa-brands fa-facebook" style="color:#ffffff;"></i>
+            </div>
+        </div>
+        <p>@2024 Nostra.com</p>
+    </div>
+<script src="script.js"></script>
+    <script src="collection.js"></script>
+</body>
+
+</html>
